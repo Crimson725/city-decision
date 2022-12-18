@@ -50,6 +50,6 @@ def rollout_test(path):
 
 
 # model path
-model_path = './best_model/best'
+model_path = 'trained_model/trained_model'
 if __name__ == '__main__':
     rollout_test(model_path)

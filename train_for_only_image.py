@@ -37,7 +37,7 @@ agent = dqn.DQNTrainer(config, env=select_env)
 # output format
 status = "{:2d} reward {:6.2f}/{:6.2f}/{:6.2f} len {:4.2f} saved {}"
 # interation
-n_iter = 2
+n_iter = 30
 # print model structure
 policy = agent.get_policy()
 model = policy.model

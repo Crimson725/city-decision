@@ -30,7 +30,7 @@ agent = dqn.DQNTrainer(config, env=select_env)
 status = "{:2d} reward {:6.2f}/{:6.2f}/{:6.2f} len {:4.2f} saved {}"
 
 # iteration
-n_iter = 2
+n_iter = 30
 
 # training begin
 for n in range(n_iter):

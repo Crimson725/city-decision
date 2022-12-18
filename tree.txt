@@ -1,0 +1,774 @@
+卷 DATA 的文件夹 PATH 列表
+卷序列号为 5EBA-1590
+E:.
+│  .gitignore
+│  expert_reward.py
+│  params.py
+│  README.md
+│  rollout.py
+│  train.py
+│  train_for_only_image.py
+│  tree.txt
+│  
+├─.idea
+│  │  .gitignore
+│  │  city-decision.iml
+│  │  encodings.xml
+│  │  misc.xml
+│  │  modules.xml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          
+├─classification
+│      decisiontree.ipynb
+│      MLP_features.ipynb
+│      svm.ipynb
+│      test_data.csv
+│      train_data.csv
+│      
+├─data
+│      About Dataset.md
+│      sample.csv
+│      test_random1.csv
+│      train_random1.csv
+│      
+├─exp_datasets
+│      all_features_of_four_directions.csv
+│      data.csv
+│      raw_ranked_features.csv
+│      test_data.csv
+│      test_random.csv
+│      test_random1.csv
+│      test_with_street_name.csv
+│      test_with_street_name1.csv
+│      test_with_street_name2.csv
+│      train.csv
+│      train_data.csv
+│      train_leveled.csv
+│      train_random.csv
+│      train_random1.csv
+│      train_small_dataset.csv
+│      train_test.csv
+│      train_with_street_name.csv
+│      
+├─gym-city
+│  │  setup.py
+│  │  
+│  ├─gym_city
+│  │  │  __init__.py
+│  │  │  
+│  │  ├─envs
+│  │  │  │  city_env.py
+│  │  │  │  city_world_test_v3.py
+│  │  │  │  city_world_v3.py
+│  │  │  │  irl_world.py
+│  │  │  │  irl_world_test.py
+│  │  │  │  __init__.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          city_env.cpython-39.pyc
+│  │  │          city_world_test_v3.cpython-39.pyc
+│  │  │          city_world_v3.cpython-39.pyc
+│  │  │          irl_world.cpython-39.pyc
+│  │  │          irl_world_test.cpython-39.pyc
+│  │  │          __init__.cpython-39.pyc
+│  │  │          
+│  │  └─__pycache__
+│  │          __init__.cpython-39.pyc
+│  │          
+│  └─gym_city.egg-info
+│          dependency_links.txt
+│          PKG-INFO
+│          requires.txt
+│          SOURCES.txt
+│          top_level.txt
+│          
+├─gym-example
+│  │  setup.py
+│  │  
+│  ├─gym_example
+│  │  │  __init__.py
+│  │  │  
+│  │  ├─envs
+│  │  │  │  example_env.py
+│  │  │  │  fail1.py
+│  │  │  │  __init__.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          example_env.cpython-38.pyc
+│  │  │          fail1.cpython-38.pyc
+│  │  │          __init__.cpython-38.pyc
+│  │  │          
+│  │  └─__pycache__
+│  │          __init__.cpython-38.pyc
+│  │          
+│  └─gym_example.egg-info
+│          dependency_links.txt
+│          PKG-INFO
+│          requires.txt
+│          SOURCES.txt
+│          top_level.txt
+│          
+├─irl
+│      train_for_irl.py
+│      train_irl.py
+│      
+├─pictures
+│      reward.png
+│      
+├─reward-log
+│      reward-dqn.txt
+│      reward-expert.txt
+│      reward-ppo.txt
+│      reward-sac.txt
+│      reward.txt
+│      
+├─test
+│  └─dqn
+│      ├─1671255442
+│      │  ├─checkpoint_000001
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000002
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000003
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000004
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000005
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000006
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000007
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000008
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000009
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000010
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000011
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000012
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000013
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000014
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000015
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000016
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000017
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000018
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000019
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  └─checkpoint_000020
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671255824
+│      │  ├─checkpoint_000001
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000002
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000003
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000004
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000005
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000006
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000007
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000008
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000009
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000010
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000011
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000012
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000013
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000014
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000015
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000016
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000017
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000018
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  ├─checkpoint_000019
+│      │  │  │  .is_checkpoint
+│      │  │  │  .tune_metadata
+│      │  │  │  algorithm_state.pkl
+│      │  │  │  rllib_checkpoint.json
+│      │  │  │  
+│      │  │  └─policies
+│      │  │      └─default_policy
+│      │  │              policy_state.pkl
+│      │  │              rllib_checkpoint.json
+│      │  │              
+│      │  └─checkpoint_000020
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671256050
+│      │  └─checkpoint_000001
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671256177
+│      │  └─checkpoint_000001
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671256347
+│      │  └─checkpoint_000001
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671256540
+│      │  └─checkpoint_000001
+│      │      │  .is_checkpoint
+│      │      │  .tune_metadata
+│      │      │  algorithm_state.pkl
+│      │      │  rllib_checkpoint.json
+│      │      │  
+│      │      └─policies
+│      │          └─default_policy
+│      │                  policy_state.pkl
+│      │                  rllib_checkpoint.json
+│      │                  
+│      ├─1671257873
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  ├─checkpoint_000002
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-2
+│      │  │      checkpoint-2.tune_metadata
+│      │  │      
+│      │  ├─checkpoint_000003
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-3
+│      │  │      checkpoint-3.tune_metadata
+│      │  │      
+│      │  ├─checkpoint_000004
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-4
+│      │  │      checkpoint-4.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000005
+│      │          .is_checkpoint
+│      │          checkpoint-5
+│      │          checkpoint-5.tune_metadata
+│      │          
+│      ├─1671257911
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      ├─1671258930
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      ├─1671275097
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      ├─1671276088
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      ├─1671276136
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      ├─1671279346
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  ├─checkpoint_000002
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-2
+│      │  │      checkpoint-2.tune_metadata
+│      │  │      
+│      │  ├─checkpoint_000003
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-3
+│      │  │      checkpoint-3.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000004
+│      │          .is_checkpoint
+│      │          checkpoint-4
+│      │          checkpoint-4.tune_metadata
+│      │          
+│      ├─1671279415
+│      │  └─checkpoint_000001
+│      │          .is_checkpoint
+│      │          checkpoint-1
+│      │          checkpoint-1.tune_metadata
+│      │          
+│      ├─1671279435
+│      │  ├─checkpoint_000001
+│      │  │      .is_checkpoint
+│      │  │      checkpoint-1
+│      │  │      checkpoint-1.tune_metadata
+│      │  │      
+│      │  └─checkpoint_000002
+│      │          .is_checkpoint
+│      │          checkpoint-2
+│      │          checkpoint-2.tune_metadata
+│      │          
+│      └─1671288278
+│          ├─checkpoint_000001
+│          │      .is_checkpoint
+│          │      checkpoint-1
+│          │      checkpoint-1.tune_metadata
+│          │      
+│          └─checkpoint_000002
+│                  .is_checkpoint
+│                  checkpoint-2
+│                  checkpoint-2.tune_metadata
+│                  
+├─trained_model
+│      trained_model
+│      trained_model.tune_metadata
+│      
+├─utils
+│  │  common_utils.py
+│  │  irl_utils.py
+│  │  rl_utils.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          common_utils.cpython-39.pyc
+│          irl_utils.cpython-39.pyc
+│          rl_utils.cpython-39.pyc
+│          __init__.cpython-39.pyc
+│          
+├─weights
+│      weights.npy
+│      
+└─__pycache__
+        expert_reward.cpython-39.pyc
+        params.cpython-39.pyc
+        rollout.cpython-39.pyc
+        
