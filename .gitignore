@@ -1,0 +1,17 @@
+/tmp
+/.idea
+/test
+/test1.py
+*.pyc
+*/__pycache__
+/test_image
+.idea/misc.xml
+.idea/rllib-test.iml
+/classification/
+/pictures/
+/gym-example/
+/irl/
+/exp_datasets
+/gym-city/gym_city/envs/irl_world.py
+/gym-city/gym_city/envs/irl_world_test.py
+/reward-log/
