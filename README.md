@@ -33,7 +33,7 @@ Urban-safety perception is crucial for urban planning and pedestrian street pref
 pip install -r requirements.txt
 ```
 
-### Environment Register
+### Environment Install
 
 Go to the directory of the environment, e.g., `/gym-city`, and run the following command to install the learning
 environment.
