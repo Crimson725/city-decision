@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### Environment Register
 
-Go to the directory of the environment, e.g., `/gym-city`, and run the following command to register the learning
+Go to the directory of the environment, e.g., `/gym-city`, and run the following command to install the learning
 environment.
 
 ```
@@ -60,7 +60,7 @@ python rollout.py
 
 ## Some important information you may want to read
 
-[Custom env for ray](https://medium.com/distributed-computing-with-ray/anatomy-of-a-custom-environment-for-rllib-327157f269e5)
+[Custom env for Ray](https://medium.com/distributed-computing-with-ray/anatomy-of-a-custom-environment-for-rllib-327157f269e5)
 
 [Tutorials on Ray and Ray-based Libraries](https://github.com/anyscale/academy/)
 
